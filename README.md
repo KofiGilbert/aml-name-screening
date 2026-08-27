@@ -3,6 +3,12 @@
 Sanctions and PEP name screening: fuzzy matching against a watchlist, banded
 outcomes, and an auditable review queue.
 
+### ▶ [**Read the analysis notebook →**](aml_name_screening.ipynb)
+
+*Where do you set the threshold?* A worked study with charts: why one matching signal
+is never enough, what recall actually costs in analyst hours, how many true hits arrive
+through an alias, and what the audit trail looks like when a call is overturned.
+
 Screening is the control that decides whether a bank onboards a sanctioned
 party. The hard part is not string comparison — it is being *right about the
 tradeoff*. A missed true match is a regulatory failure; a false positive only
